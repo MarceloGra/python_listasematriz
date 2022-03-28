@@ -1,0 +1,14 @@
+#algoritimo para juntar 3 listas em uma matriz so
+
+lista1 = [1,2,3]
+lista2 = [4,5,6]
+lista3 = [7,8,9]
+matriz = []
+for item1 in lista1 :
+    for item2 in lista2 :
+        for item3 in lista2:
+            matriz.append(item1)
+            matriz.append(item2)
+            matriz.append(item3)
+
+print(matriz)
